@@ -81,9 +81,6 @@ li {
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 10%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     
     .cabecalho__menu {
@@ -94,15 +91,14 @@ li {
         padding: 5%;
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
     }
 
     .curriculo__menu {
         width: auto;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
+    }
+    
+    .apresentacao__imagem {
+        width: 100%;
     }
 }
