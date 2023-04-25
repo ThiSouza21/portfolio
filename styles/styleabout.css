@@ -41,9 +41,6 @@ span {
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 10%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     
     .cabecalho__menu {
@@ -54,14 +51,14 @@ span {
         padding: 5%;
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
     }
 
     .sobremim__conteudo {
         width: auto;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    }
+    
+    .apresentacao__imagem {
+        width: 100%;
     }
 }
