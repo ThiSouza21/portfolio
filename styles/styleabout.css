@@ -48,7 +48,6 @@ span {
     }
 
     .sobremim {
-        padding: 5%;
         display: flex;
         flex-direction: column-reverse;
     }
