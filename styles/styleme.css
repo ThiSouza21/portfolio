@@ -89,6 +89,7 @@ li {
     }
 
     .curriculo {
+        padding: 5%;
         display: flex;
         flex-direction: column-reverse;
     }
