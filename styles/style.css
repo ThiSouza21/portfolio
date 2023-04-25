@@ -131,7 +131,7 @@ h1 {
     }
 
     .apresentacao {
-        padding: 5%;
+        padding: 10%;
         display: flex;
         flex-direction: column-reverse;
     }
