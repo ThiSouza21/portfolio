@@ -84,6 +84,7 @@ li {
     }
     
     .cabecalho__menu {
+        display: flex;
         justify-content: center;
     }
 
