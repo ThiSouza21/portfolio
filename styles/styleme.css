@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+
+:root {
+    --cor-primaria: #2c3639;
+    --cor-secundaria: #dcd7c9;
+    --cor-terciaria: #a27b5c;
+    --cor-hoover: #3f4e4f;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+.curriculo {
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.curriculo__menu {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.curriculo__menu__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+}
+
+.cabecalho__menu__titulo__grande {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.curriculo__menu__titulo__principal {
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+}
+
+.curriculo__menu__titulo__person {
+    font-family: var(--fonte-primaria);
+    font-size: 1.87rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.curriculo__menu__paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+
+.curriculo__menu__links {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.curriculo__menu__links__link {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+ul {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+li {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .curriculo {
+        padding: 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .curriculo__menu {
+        width: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
