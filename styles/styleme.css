@@ -80,6 +80,7 @@ li {
 
 @media (max-width: 1200px) {
     .cabecalho {
+        margin: auto;
         padding: 10%;
     }
     
